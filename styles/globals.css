@@ -2,16 +2,21 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+  font-size: 18px;
+  font-family: 'Londrina Solid', cursive;
+  -webkit-text-stroke: 0.06em #453831;
 
+}
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&display=swap');
 a {
   color: inherit;
   text-decoration: none;
+  -webkit-text-stroke: 0.06em #453831;
+
 }
 
 * {
+  transition: 0.3s;
   box-sizing: border-box;
 }
 
@@ -21,6 +26,5 @@ a {
   }
   body {
     color: white;
-    background: black;
   }
 }
